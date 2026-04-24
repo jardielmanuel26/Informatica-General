@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Planificador de Vacaciones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f8fb;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        section {
+            background: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🌍 Planificador de Vacaciones</h1>
+
+    <section>
+        <h2>📍 Destino</h2>
+        <input type="text" placeholder="¿A dónde quieres viajar?">
+        <input type="date">
+        <input type="date">
+    </section>
+
+    <section>
+        <h2>🏨 Alojamiento</h2>
+        <input type="text" placeholder="Hotel / Airbnb">
+        <textarea placeholder="Dirección o detalles"></textarea>
+    </section>
+
+    <section>
+        <h2>🎯 Actividades</h2>
+        <textarea placeholder="Ej: visitar museos, excursiones, playa..."></textarea>
+    </section>
+
+    <section>
+        <h2>💰 Presupuesto</h2>
+        <input type="number" placeholder="Presupuesto total">
+        <textarea placeholder="Detalles de gastos"></textarea>
+    </section>
+
+    <section>
+        <h2>✅ Checklist</h2>
+        <input type="checkbox"> Pasaporte<br>
+        <input type="checkbox"> Ropa<br>
+        <input type="checkbox"> Cargadores<br>
+        <input type="checkbox"> Seguro de viaje<br>
+    </section>
+
+    <button onclick="alert('¡Buen viaje! ✈️')">Guardar Plan</button>
+
+</body>
+</html>
