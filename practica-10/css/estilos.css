@@ -1,0 +1,30 @@
+/*Color de fondo: verde*/
+body {background-color: green;}
+/*Color del párrafo: rojo*/
+p {
+    color: red;
+    background-color: black;
+    font-family: Arial;
+}
+/*Color de los títulos: amarillo*/
+#amarillo {
+    color: yellow;
+    font-family: 'Times New Roman';
+}
+/*Color de los nombres de las personajes: azul*/
+#azul {
+    color:blue;
+    font-family: Arial;
+}
+/*Color de los links: violeta con fondo acuarela*/
+.violeta {
+    color: violet;
+    background-color: aqua;
+    font-family: cursive;
+}
+/*Color de los subtitulos: Marrón con fondo naranja*/
+.marron{
+    color: brown;
+    background-color: orange;
+    font-family: Arial;
+}

@@ -1,0 +1,96 @@
+/*Diseño combinado Breaking Bad*/
+
+/*Fondo General*/
+body{
+    background-color: green;
+     color: #f3f4f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 30px;
+    line-height: 1.8;
+}
+/*Título principal*/
+#amarillo{
+    color: yellow;
+    font-family: 'Times New Roman';
+     text-align: center;
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+    text-shadow: 0px 0px 15px #00ff9d;
+    border-bottom: 4px solid #00ff9d;
+    padding-bottom: 15px;
+}
+/*Párrafos*/
+p{
+     color: red;
+    background-color: black;
+    font-family: Arial;
+    border-left: 6px solid #00ff9d;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 18px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.4);
+    transition: transform 0.3s;
+}
+/*Personajes*/
+#azul {
+    color:blue;
+    font-family: Arial;
+    background: rgba(59,130,246,0.15);
+    border: 2px solid #3b82f6;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 25px;
+    list-style: none;
+    font-size: 18px;
+    box-shadow: 0px 0px 10px rgba(59,130,246,0.4);
+}
+/*Links*/
+.violeta {
+    color: violet;
+    background-color: aqua;
+    font-family: cursive;
+    display: inline-block;
+    text-decoration: none;
+    background: linear-gradient(90deg, #7c3aed, #06b6d4);
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
+}
+.violeta:hover{
+    transform: translateY(-3px);
+    background: linear-gradient(90deg, #06b6d4, #7c3aed);
+    box-shadow: 0px 6px 15px rgba(124,58,237,0.5);
+}
+/* Episodios y subtítulos marrones */
+.marron{
+    color: brown;
+    background-color: orange;
+    font-family: Arial;
+    background: rgba(250,204,21,0.12);
+    border-left: 5px solid #facc15;
+    padding: 10px;
+    border-radius: 10px;
+}
+/*Imágenes*/
+img{
+    display: block;
+    margin: 25px auto;
+    border-radius: 20px;
+    border: 4px solid #00ff9d;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.6);
+    max-width: 90%;
+    height: auto;
+    transition: transform 0.4s, box-shadow 0.4s;
+}
+img:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 10px 25px rgba(0,255,157,0.5);
+}
+
+/*Declaración de uso de IA: Se utilizó IA para combinar los estilos de este código con otro hecho sin esa herramienta.*/
